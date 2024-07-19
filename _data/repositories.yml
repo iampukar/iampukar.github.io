@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - iampukar
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - iampukar/package-scan
+  - iampukar/reading-research-paper
+  - iampukar/solidity-gas-optimization
+  - iampukar/evm-puzzles
+  - iampukar/deep-learning-in-computer-vision
+  - iampukar/language-processing
+  - iampukar/toxic-comments-classification
+  - iampukar/Garbage-E-Monitoring-System
