@@ -10,15 +10,31 @@ module ExternalPosts
     priority :high
 
     def generate(site)
-      if site.config['external_sources'] != nil
+      if site.config['external_sources']
         site.config['external_sources'].each do |src|
-          puts "Fetching external posts from #{src['name']}:"
-          if src['rss_url']
-            fetch_from_rss(site, src)
-          elsif src['posts']
-            fetch_from_urls(site, src)
+          if valid_external_source?(src)
+            puts "Fetching external posts from #{src['name']}:"
+            if src['rss_url'] && !src['rss_url'].empty?
+              fetch_from_rss(site, src)
+            elsif src['posts']
+              fetch_from_urls(site, src)
+            end
+          else
+            puts "Skipping invalid external source: #{src.inspect}"
           end
         end
+      end
+    end
+
+    def valid_external_source?(src)
+      if src['name'] && src['rss_url']
+        !src['name'].empty? && !src['rss_url'].empty?
+      elsif src['posts']
+        src['posts'].all? do |post|
+          post['url'] && !post['url'].empty? && post['published_date'] && !post['published_date'].empty?
+        end
+      else
+        false
       end
     end
 
@@ -58,10 +74,14 @@ module ExternalPosts
 
     def fetch_from_urls(site, src)
       src['posts'].each do |post|
-        puts "...fetching #{post['url']}"
-        content = fetch_content_from_url(post['url'])
-        content[:published] = parse_published_date(post['published_date'])
-        create_document(site, src['name'], post['url'], content)
+        if post['url'] && !post['url'].empty?
+          puts "...fetching #{post['url']}"
+          content = fetch_content_from_url(post['url'])
+          content[:published] = parse_published_date(post['published_date'])
+          create_document(site, src['name'], post['url'], content)
+        else
+          puts "Skipping empty URL in external sources."
+        end
       end
     end
 
@@ -91,6 +111,5 @@ module ExternalPosts
         # Note: The published date is now added in the fetch_from_urls method.
       }
     end
-
   end
 end
