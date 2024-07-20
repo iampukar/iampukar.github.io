@@ -3,10 +3,10 @@ layout: post
 title: A Comprehensive Guide To Supply Chain Attacks In The Web3 World
 date: 2023-09-23 11:46:00
 description: A Comprehensive Guide To Supply Chain Attacks In The Web3 World
-tags: supply-chain-attack security
-categories: security supply-chain-attack
+tags: supply-chain-attack security Web3
+categories: Web3 supply-chain-attack
 thumbnail: assets/img/supplychainattacks.png
-related_posts: false
+related_posts: true
 toc:
   sidebar: left
 ---
