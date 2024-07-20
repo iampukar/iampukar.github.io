@@ -132,8 +132,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Blogs by Pukar Acharya # blog_name will be displayed in your blog page
+blog_description: Discover insights into the latest trends and practical guidelines on security, artificial intelligence, Web3, blockchain technology, cryptocurrency, cybersecurity, hacks and exploits, smart contract security, and vulnerabilities.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
