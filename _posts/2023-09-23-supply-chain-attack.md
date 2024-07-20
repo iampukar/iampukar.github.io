@@ -11,11 +11,6 @@ toc:
   sidebar: left
 ---
 
-```yml
-toc:
-  sidebar: left
-```
-
 ## Introduction to Supply Chain Attacks
 
 In the ever-evolving landscape of cybersecurity threats, one perilous adversary looms large: the supply chain attack. This covert cyberattack has gained prominence as a potent weapon for malicious actors seeking to breach organizations of all sizes. In this article, let’s delve deep into the world of supply chain attacks, examining their inner workings, identifying vulnerabilities, and scrutinizing their real-world consequences.
