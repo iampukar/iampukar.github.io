@@ -6,10 +6,15 @@ description: A Comprehensive Guide To Supply Chain Attacks In The Web3 World
 tags: supply-chain-attack security
 categories: security
 thumbnail: assets/img/supplychainattacks.png
-images:
-  compare: true
-  slider: true
+related_posts: false
+toc:
+  sidebar: left
 ---
+
+```yml
+toc:
+  sidebar: left
+```
 
 ## Introduction to Supply Chain Attacks
 
