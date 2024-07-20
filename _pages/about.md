@@ -23,4 +23,4 @@ My core skills include Data Science, Machine Learning, Deep Learning, Web Applic
 
 Outside of work, I am always eager to learn new things and stay updated with the latest trends in technology, web3, and security. I enjoy meeting new people and engaging in discussions about global issues, which broadens my perspective and enriches my understanding of the world. In my leisure time, I love watching TV series, playing FIFA, and indulging in various activities that keep me refreshed and motivated.
 
-Please feel free to contact me via my social media accounts.
+Please feel free to contact me via my social media accounts below.
