@@ -2,24 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Security Researcher
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Pukar Acharya, currently working as an Independent Security Researcher. My passion for artificial intelligence, security, and blockchains drives my dedication to researching pressing industry needs and developing scalable applications in these fields.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Over the past 7 years, I have held various roles, including Cyber Security Consultant at Neptune Mutual, Deep Learning Engineer at IME Ltd., and Business Analyst at Cargill Business Services.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My core skills include Data Science, Machine Learning, Deep Learning, Web Application Security, Infrastructure Security, and the security of smart contracts. I am proficient in multiple programming languages, including Python, NodeJS, Golang, and Solidity. Additionally, I have extensive experience with Artificial Intelligence frameworks and libraries. Throughout my career, I have developed a knack for building scalable applications and solving complex problems, ensuring that the solutions I create meet both individual and organizational needs.
+
+Outside of work, I am always eager to learn new things and stay updated with the latest trends in technology, web3, and security. I enjoy meeting new people and engaging in discussions about global issues, which broadens my perspective and enriches my understanding of the world. In my leisure time, I love watching TV series, playing FIFA, and indulging in various activities that keep me refreshed and motivated.
+
+Please feel free to contact me via my social media accounts.
