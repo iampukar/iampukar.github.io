@@ -303,14 +303,13 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: [
-    "Web3",
+    "security",
     "smart-contract-vulnerability",
     "reentrancy",
     "private-key-compromise",
     "price-manipulation",
     "oracle-manipulation",
     "access-control",
-    "social-engineering",
     "supply-chain-attack",
   ] # these tags will be displayed on the front page of your blog
 display_categories: ["blockchain-hacks"] # these categories will be displayed on the front page of your blog
