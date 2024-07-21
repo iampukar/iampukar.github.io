@@ -302,7 +302,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["Web3", "private-key-compromise", "price-manipulation", "oracle-manipulation", "supply-chain-attack"] # these tags will be displayed on the front page of your blog
+display_tags: ["Web3", "private-key-compromise", "price-manipulation", "oracle-manipulation", "access-control", "supply-chain-attack"] # these tags will be displayed on the front page of your blog
 display_categories: ["blockchain-hacks"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
