@@ -54,7 +54,7 @@ A common limitation of LLMs is hallucination—where the model generates plausib
 - **Ask for Sources**: Request citations or references to ensure factual accuracy.
 - **Verify Data**: Include a verification step in the prompt to check that the information aligns with reliable sources.
 - **Refine Open-Ended Prompts**: Narrow the scope of broad queries to focus on specific, verifiable data.
-  
+
 ## Iterative Prompt Development: Refining Our Approach
 
 Effective prompt engineering is a continuous process. We can follow this iterative method to refine our prompts:
