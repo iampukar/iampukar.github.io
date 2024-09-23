@@ -4,7 +4,7 @@ title: Guide to LangChain for LLM Development
 date: 2024-09-22 11:46:00
 description: Learn LangChain for LLM development exploring its modular components, memory, embeddings, and chains to build advanced AI applications.
 tags: LangChain llm prompt-engineering
-categories: LangChain
+categories: LangChain AI
 thumbnail: assets/img/langchainforllmdevelopment.png
 related_posts: true
 toc:
