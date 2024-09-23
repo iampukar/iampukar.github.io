@@ -304,15 +304,14 @@ jekyll-archives:
 
 display_tags: [
     "security",
+    "supply-chain-attack",
     "smart-contract-vulnerability",
     "reentrancy",
     "private-key-compromise",
     "price-manipulation",
     "oracle-manipulation",
-    "access-control",
-    "supply-chain-attack",
   ] # these tags will be displayed on the front page of your blog
-display_categories: ["blockchain-hacks"] # these categories will be displayed on the front page of your blog
+display_categories: ["AI", "blockchain-hacks"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
