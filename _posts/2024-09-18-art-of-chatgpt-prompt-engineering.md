@@ -3,8 +3,8 @@ layout: post
 title: The Art of ChatGPT Prompt Engineering
 date: 2024-09-18 11:46:00
 description: A Comprehensive Guide To Prompt Engineering
-tags: chatgpt openai prompt-engineering llm
-categories: chatgpt prompt-engineering
+tags: chatgpt openai prompt-engineering llm AI
+categories: chatgpt prompt-engineering AI
 thumbnail: assets/img/chatgptpromptengineering.png
 related_posts: true
 toc:
