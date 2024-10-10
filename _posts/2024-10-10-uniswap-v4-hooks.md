@@ -25,7 +25,7 @@ In simple terms, LPs can now focus their liquidity on a specific price range, li
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/other_support_images/uniswap-liquidity-distribution.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/other_support_images/uniswap-liquidity-distribution.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
