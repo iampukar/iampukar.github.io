@@ -5,7 +5,7 @@ date: 2024-09-27 11:46:00
 description: Learn how to preprocess unstructured data for large language models (LLMs) using techniques like Retrieval Augmented Generation (RAG), metadata extraction, and advanced document analysis methods.
 tags: fine-tuning llm unstructured-data RAG
 categories: llm prompt-engineering AI
-thumbnail: assets/img/finetuningllms.png
+thumbnail: assets/img/preprocessing-unstructured-data.png
 related_posts: true
 toc:
   sidebar: left
