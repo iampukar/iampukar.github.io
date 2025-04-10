@@ -1,4 +1,4 @@
-GEM
+gitGEM
   remote: https://rubygems.org/
   specs:
     activesupport (8.0.2)
